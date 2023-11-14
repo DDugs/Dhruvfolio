@@ -28,9 +28,9 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'Desktop app' ?
-            <ToggleButton active value="Desktop app" onClick={() => setToggle('Desktop app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton active value="Desktop app" onClick={() => setToggle('Desktop app')}>DESKTOP APP'S</ToggleButton>
             :
-            <ToggleButton value="Desktop app" onClick={() => setToggle('Desktop app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton value="Desktop app" onClick={() => setToggle('Desktop app')}>DESKTOP APP'S</ToggleButton>
           }
           <Divider />
           {toggle === 'machine learning' ?
