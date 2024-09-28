@@ -88,22 +88,14 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Dhruv Gupta</Logo>
-        <Nav>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
-        </Nav>
+        <Logo>Dhruv Vishesh Gupta</Logo>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.github} target="display"><GithubIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Dhruv Gupta. All rights reserved.
+          &copy; 2024 Dhruv Vishesh Gupta. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
